@@ -1,0 +1,15 @@
+GitPython
+jupyter
+pydantic
+pydantic[email,dotenv]
+pandas
+paramiko
+plotly
+pyodbc
+py7zr
+psycopg2-binary
+pywin32
+requests
+requests-cache
+requests-oauthlib
+SQLAlchemy
