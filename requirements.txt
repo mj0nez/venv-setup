@@ -200,7 +200,7 @@ packaging==23.0
     #   plotly
     #   qtconsole
     #   qtpy
-pandas==2.0.0
+pandas==2.0.1
     # via -r requirements.in
 pandocfilters==1.5.0
     # via nbconvert
