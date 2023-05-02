@@ -239,7 +239,7 @@ ptyprocess==0.7.0
     #   terminado
 pure-eval==0.2.2
     # via stack-data
-py7zr==0.20.4
+py7zr==0.20.5
     # via -r requirements.in
 pybcj==1.0.1
     # via py7zr
