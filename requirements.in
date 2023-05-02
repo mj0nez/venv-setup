@@ -8,7 +8,7 @@ plotly
 pyodbc
 py7zr
 psycopg2-binary
-pywin32>=302
+pywin32;sys_platform == 'win32'
 requests
 requests-cache
 requests-oauthlib
