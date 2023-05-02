@@ -9,6 +9,7 @@ pyodbc
 py7zr
 psycopg2-binary
 pywin32;sys_platform == 'win32'
+pywinpty;sys_platform == 'win32'
 requests
 requests-cache
 requests-oauthlib
