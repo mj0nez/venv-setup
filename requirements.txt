@@ -291,7 +291,7 @@ qtconsole==5.4.2
     # via jupyter
 qtpy==2.3.1
     # via qtconsole
-requests==2.29.0
+requests==2.30.0
     # via
     #   -r requirements.in
     #   requests-cache
