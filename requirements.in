@@ -13,3 +13,4 @@ requests
 requests-cache
 requests-oauthlib
 SQLAlchemy
+tox
