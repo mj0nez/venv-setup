@@ -4,7 +4,7 @@
 #
 #    pip-compile requirements.in
 #
-anyio==3.6.2
+anyio==3.7.0
     # via jupyter-server
 argon2-cffi==21.3.0
     # via
@@ -32,9 +32,9 @@ bleach==6.0.0
     # via nbconvert
 brotli==1.0.9
     # via py7zr
-cachetools==5.3.0
+cachetools==5.3.1
     # via tox
-cattrs==22.2.0
+cattrs==23.1.2
     # via requests-cache
 certifi==2023.5.7
     # via requests
@@ -53,7 +53,7 @@ colorama==0.4.6
     #   tox
 comm==0.1.3
     # via ipykernel
-cryptography==40.0.2
+cryptography==41.0.1
     # via paramiko
 debugpy==1.6.7
     # via ipykernel
@@ -69,7 +69,7 @@ email-validator==2.0.0.post2
     # via pydantic
 executing==1.2.0
     # via stack-data
-fastjsonschema==2.16.3
+fastjsonschema==2.17.1
     # via nbformat
 filelock==3.12.0
     # via
@@ -99,7 +99,7 @@ ipykernel==6.23.1
     #   nbclassic
     #   notebook
     #   qtconsole
-ipython==8.13.2
+ipython==8.14.0
     # via
     #   ipykernel
     #   ipywidgets
@@ -154,7 +154,7 @@ jupyter-core==5.3.0
     #   qtconsole
 jupyter-events==0.6.3
     # via jupyter-server
-jupyter-server==2.5.0
+jupyter-server==2.6.0
     # via
     #   nbclassic
     #   notebook-shim
@@ -164,7 +164,7 @@ jupyterlab-pygments==0.2.2
     # via nbconvert
 jupyterlab-widgets==3.0.7
     # via ipywidgets
-markupsafe==2.1.2
+markupsafe==2.1.3
     # via
     #   jinja2
     #   nbconvert
@@ -178,7 +178,7 @@ multivolumefile==0.2.3
     # via py7zr
 nbclassic==1.0.0
     # via notebook
-nbclient==0.7.4
+nbclient==0.8.0
     # via nbconvert
 nbconvert==7.4.0
     # via
@@ -186,7 +186,7 @@ nbconvert==7.4.0
     #   jupyter-server
     #   nbclassic
     #   notebook
-nbformat==5.8.0
+nbformat==5.9.0
     # via
     #   jupyter-server
     #   nbclassic
@@ -206,6 +206,8 @@ numpy==1.24.3
     # via pandas
 oauthlib==3.2.2
     # via requests-oauthlib
+overrides==7.3.1
+    # via jupyter-server
 packaging==23.1
     # via
     #   ipykernel
@@ -216,11 +218,11 @@ packaging==23.1
     #   qtconsole
     #   qtpy
     #   tox
-pandas==2.0.1
+pandas==2.0.2
     # via -r requirements.in
 pandocfilters==1.5.0
     # via nbconvert
-paramiko==3.1.0
+paramiko==3.2.0
     # via -r requirements.in
 parso==0.8.3
     # via jedi
@@ -236,7 +238,7 @@ plotly==5.14.1
     # via -r requirements.in
 pluggy==1.0.0
     # via tox
-prometheus-client==0.16.0
+prometheus-client==0.17.0
     # via
     #   jupyter-server
     #   nbclassic
@@ -261,7 +263,7 @@ pycparser==2.21
     # via cffi
 pycryptodomex==3.18.0
     # via py7zr
-pydantic[dotenv,email]==1.10.7
+pydantic[dotenv,email]==1.10.8
     # via -r requirements.in
 pygments==2.15.1
     # via
@@ -292,7 +294,7 @@ pytz==2023.3
     # via pandas
 pyyaml==6.0
     # via jupyter-events
-pyzmq==25.0.2
+pyzmq==25.1.0
     # via
     #   ipykernel
     #   jupyter-client
@@ -307,7 +309,7 @@ qtconsole==5.4.3
     # via jupyter
 qtpy==2.3.1
     # via qtconsole
-requests==2.30.0
+requests==2.31.0
     # via
     #   -r requirements.in
     #   requests-cache
@@ -366,7 +368,7 @@ tornado==6.3.2
     #   nbclassic
     #   notebook
     #   terminado
-tox==4.5.1
+tox==4.6.0
     # via -r requirements.in
 traitlets==5.9.0
     # via
@@ -386,7 +388,7 @@ traitlets==5.9.0
     #   nbformat
     #   notebook
     #   qtconsole
-typing-extensions==4.5.0
+typing-extensions==4.6.3
     # via
     #   pydantic
     #   sqlalchemy
@@ -410,7 +412,7 @@ webencodings==0.5.1
     # via
     #   bleach
     #   tinycss2
-websocket-client==1.5.1
+websocket-client==1.5.2
     # via jupyter-server
 widgetsnbextension==4.0.7
     # via ipywidgets
