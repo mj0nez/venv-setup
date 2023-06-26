@@ -234,7 +234,7 @@ platformdirs==3.5.1
     #   requests-cache
     #   tox
     #   virtualenv
-plotly==5.14.1
+plotly==5.15.0
     # via -r requirements.in
 pluggy==1.0.0
     # via tox
