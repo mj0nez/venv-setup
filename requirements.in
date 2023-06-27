@@ -15,3 +15,4 @@ requests-cache
 requests-oauthlib
 SQLAlchemy
 tox
+requests5
