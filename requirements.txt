@@ -384,7 +384,7 @@ tornado==6.3.3
     #   jupyterlab
     #   notebook
     #   terminado
-tox==4.7.0
+tox==4.9.0
     # via -r requirements.in
 traitlets==5.9.0
     # via
@@ -418,7 +418,7 @@ urllib3==2.0.4
     # via
     #   requests
     #   requests-cache
-virtualenv==20.24.2
+virtualenv==20.24.3
     # via tox
 wcwidth==0.2.6
     # via prompt-toolkit
