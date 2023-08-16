@@ -372,7 +372,7 @@ texttable==1.6.7
     # via py7zr
 tinycss2==1.2.1
     # via nbconvert
-tornado==6.3.2
+tornado==6.3.3
     # via
     #   ipykernel
     #   jupyter-client
