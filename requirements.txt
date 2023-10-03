@@ -261,7 +261,7 @@ psutil==5.9.5
     # via
     #   ipykernel
     #   py7zr
-psycopg2-binary==2.9.8
+psycopg2-binary==2.9.9
     # via -r requirements.in
 ptyprocess==0.7.0
     # via
@@ -279,7 +279,7 @@ pycryptodomex==3.18.0
     # via py7zr
 pydantic[dotenv,email]==2.4.0
     # via -r requirements.in
-pydantic-core==2.4.0
+pydantic-core==2.10.0
     # via pydantic
 pygments==2.16.1
     # via
@@ -432,4 +432,3 @@ websocket-client==1.6.1
     # via jupyter-server
 widgetsnbextension==4.0.8
     # via ipywidgets
-pydantic>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
