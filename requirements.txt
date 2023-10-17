@@ -87,7 +87,7 @@ fs==2.4.16
     # via -r requirements.in
 gitdb==4.0.10
     # via gitpython
-gitpython==3.1.37
+gitpython==3.1.38
     # via -r requirements.in
 greenlet==2.0.2
     # via sqlalchemy
@@ -279,7 +279,7 @@ pycryptodomex==3.18.0
     # via py7zr
 pydantic[dotenv,email]==2.4.0
     # via -r requirements.in
-pydantic-core==2.4.0
+pydantic-core==2.10.0
     # via pydantic
 pygments==2.16.1
     # via
@@ -432,4 +432,3 @@ websocket-client==1.6.1
     # via jupyter-server
 widgetsnbextension==4.0.8
     # via ipywidgets
-pydantic>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
