@@ -36,7 +36,7 @@ beautifulsoup4==4.12.2
     # via nbconvert
 bleach==6.0.0
     # via nbconvert
-brotli==1.0.9
+brotli==1.1.0
     # via py7zr
 cachetools==5.3.1
     # via tox
@@ -97,7 +97,7 @@ idna==3.4
     #   email-validator
     #   jsonschema
     #   requests
-inflate64==0.3.1
+inflate64==1.0.0
     # via py7zr
 ipykernel==6.25.1
     # via
@@ -269,7 +269,7 @@ ptyprocess==0.7.0
     #   terminado
 pure-eval==0.2.2
     # via stack-data
-py7zr==0.20.6
+py7zr==0.20.8
     # via -r requirements.in
 pybcj==1.0.1
     # via py7zr
@@ -291,7 +291,7 @@ pynacl==1.5.0
     # via paramiko
 pyodbc==5.0.1
     # via -r requirements.in
-pyppmd==1.0.0
+pyppmd==1.1.0
     # via py7zr
 pyproject-api==1.6.1
     # via tox
