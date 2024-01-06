@@ -275,7 +275,7 @@ pybcj==1.0.1
     # via py7zr
 pycparser==2.21
     # via cffi
-pycryptodomex==3.18.0
+pycryptodomex==3.19.1
     # via py7zr
 pydantic[dotenv,email]==2.4.0
     # via -r requirements.in
