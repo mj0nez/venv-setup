@@ -38,7 +38,7 @@ bleach==6.0.0
     # via nbconvert
 brotli==1.1.0
     # via py7zr
-cachetools==5.3.1
+cachetools==5.3.2
     # via tox
 cattrs==23.1.2
     # via requests-cache
@@ -77,7 +77,7 @@ executing==1.2.0
     # via stack-data
 fastjsonschema==2.18.0
     # via nbformat
-filelock==3.12.3
+filelock==3.13.1
     # via
     #   tox
     #   virtualenv
@@ -217,7 +217,7 @@ oauthlib==3.2.2
     # via requests-oauthlib
 overrides==7.4.0
     # via jupyter-server
-packaging==23.1
+packaging==23.2
     # via
     #   ipykernel
     #   jupyter-server
@@ -241,7 +241,7 @@ pexpect==4.8.0
     # via ipython
 pickleshare==0.7.5
     # via ipython
-platformdirs==3.10.0
+platformdirs==4.1.0
     # via
     #   jupyter-core
     #   requests-cache
@@ -384,7 +384,7 @@ tornado==6.3.3
     #   jupyterlab
     #   notebook
     #   terminado
-tox==4.11.4
+tox==4.12.0
     # via -r requirements.in
 traitlets==5.9.0
     # via
@@ -418,7 +418,7 @@ urllib3==2.0.7
     # via
     #   requests
     #   requests-cache
-virtualenv==20.24.3
+virtualenv==20.25.0
     # via tox
 wcwidth==0.2.6
     # via prompt-toolkit
