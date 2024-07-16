@@ -432,3 +432,4 @@ websocket-client==1.6.1
     # via jupyter-server
 widgetsnbextension==4.0.8
     # via ipywidgets
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
